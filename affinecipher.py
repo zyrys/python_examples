@@ -8,8 +8,10 @@ SYMBOLS = """ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\] ^_`a
 def main():
 
     mymessage = """"A computer would deserve to be called intelligent if it could deceive a human into believing that it was human." -Alan Turing"""
-    mykey = getrandomkey()nn
+    #mymessage = """;wtAd?Hv4fmt=dv\$t$fQfmZft4dt ftAz\\f$tS"4f\\S-f"4tSJtS4tAdv\$t$fAfSZftztov?z"tS"4dt f\SfZS"-t4oz4tS4t=zQtov?z"^;t{w\z"t1vmS"-"""
+    mykey = getrandomkey()
     mymode = 'encrypt'
+    #mymode = 'decrypt'
 
     if mymode == 'encrypt':
         translated = encryptmessage(mykey, mymessage)

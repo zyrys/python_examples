@@ -1,6 +1,5 @@
-a = float(raw_input('Podaj wysokosc trojkata'))
-b = float(raw_input('Podaj jeden z bokow'))
+def liczba(x):
+	return([n for n in range(0, x) if x%4 != 0 and x%9 != 0])
 
-pol = 0.5*a*b
-
-print pol
+l = liczba(5)
+print l
